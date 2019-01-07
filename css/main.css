@@ -1,10 +1,11 @@
 html {
   font-family: Georgia, serif;
-}
-
-.planet-content {
   color: #efefef;
   background-color: #495562;
+}
+
+.banner {
+  max-height: 500px;
 }
 
 .btn {
@@ -12,22 +13,38 @@ html {
   border-color: #97a49b;
 }
 
+.btn:hover {
+  background-color: #efefef;
+  border-color: #efefef;
+  color: #495562;
+}
+
 @media only screen and (min-width: 60em) {
 
+  html {
+    color: #fff;
+  }
+
   .btn-ghost {
-    border-color: #fff;
-    color: #efefef;
+    position: relative;
   }
 
-  .banner {
-    max-height: 500px;
-    overflow: hidden;
-  }
-
-  .planet-content {
+  .content {
     position: absolute;
     bottom: 0;
-    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+    width: 100%;
+    background: transparent;
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 9), rgba(73, 85, 98, .9));
+  }
+
+  .text {
+    position: relative;
+  }
+
+  .btn {
+    color: #fff;
+    position: absolute;
+    right: 1%;
   }
 
 }
