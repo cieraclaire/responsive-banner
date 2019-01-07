@@ -1,0 +1,16 @@
+html {
+  font-family: Georgia, serif;
+  color: #fff;
+  background-color: rgba(73, 85, 98, .9);
+}
+
+main {
+  padding: 15px;
+}
+
+.btn {
+  background-color: rgba(73, 85, 98, .9);
+  border-color: #97a49b;
+  padding: 10px;
+  display: inline-block;
+}
