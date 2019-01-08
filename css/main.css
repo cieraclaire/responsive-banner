@@ -19,6 +19,11 @@ html {
   color: #495562;
 }
 
+@media only screen and (mind-with: 38em) {
+
+
+}
+
 @media only screen and (min-width: 60em) {
 
   html {
@@ -34,7 +39,7 @@ html {
     bottom: 0;
     width: 100%;
     background: transparent;
-    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 9), rgba(73, 85, 98, .9));
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
   }
 
   .text {
